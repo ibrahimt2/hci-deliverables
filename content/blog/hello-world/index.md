@@ -5,3 +5,5 @@ description: "Im down to use whatever"
 ---
 
 We can just type in Markdown and not have to worry about html. This Gatsby starter takes care of everything. No permissions stuff and pasting in the URL specifically either
+
+OSMAN WHERE YOU AT BROTHER 
