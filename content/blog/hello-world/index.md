@@ -17,9 +17,12 @@ description: "Obersvations of users, Personas, Problems identified, Use Case Sce
 # Overview ✏️ <a name="overview"></a>
 The world is waking up to the fact that climate change is a grave threat. Industry, academia and society is realizing that we need to assess the environmental impact of everything that we do. A big part of this is doing a complete assessment of the environmental impact associated with all of the stages of the life cycle of a product. In the field, this is known as life-cycle assessment.
 
-Researchers and engineers need to use a LCA software. The most popular free open source option available right now is openLCA. While it is a powerful platform, it can be very unintuitive to use. Mostly because it looks like this.
+Researchers and engineers need to use a LCA software. The most popular free open source option available right now is openLCA. While it is a powerful platform, it can be very unintuitive to use. The menus are bloated, it is riddled with strange user interfaces glitches. To almost all new users and a good portion of expert users, the software is as confusing as it is powerful. 
+
+Our projects aimed to build a new user interface for openLCA that will allow users to do the most common tasks that openLCA is used for with minimal friction. 
 
 # Observing Users 👥 <a name="users"></a>
+
 For the initial stage we observed 3 users completing the same case study. The case study was vocally led by a facilitator. The facilitator followed the tutorial in a sequential manner, leaving the very little description of the required actions. The participants obtained additional support either from selected parts of the tutorial or selected videos only once the facilitators had decided the participant would not be able to pursue the step.
 
 ## Participants <a name="participants"></a>
@@ -41,17 +44,19 @@ For the initial stage we observed 3 users completing the same case study. The ca
 #### Documents/Material for each User Observation:
 TODO
 
-# The Problem 📛
+# Identifying the problem 📛
 The main problem of the world's most popular free LCA software is how unintuitive it is. There are many UI related issues and is prone to many pitfalls, even by experts, which result in the inaccuraccy of the LC Analysis. 
 
 A typical LCA has these main steps:
 * Importing a Database
-* Creating and configuring Flows
-* Creating and configuring Processes
-* Creating and configuring Product Systems
-* Setting up a Project and Obtaining the final analysis report
+* Creating and configuring flows
+* Creating and configuring processes
+* Creating and configuring product Systems
+* Setting up a project and obtaining the final LCA report
 
-All of these stages has multiple UI issues, which were collected during our user observations. In the documents attached, you will see a collection of these interaction problems, and a summarised solution for each of them.
+All of these stages has multiple UI issues, which were collected during our user observations. We also brainstormed solutions to each of these issues. 
+
+These issues can be seen [in the document linked here](./problems.pdf)
 
 ### TODO: Document listing all the issues
 #### Other documents/screenshots/files
