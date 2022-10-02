@@ -1,13 +1,13 @@
 ---
-title: "Deliverable 1: Observations and Proposal"
+title: "Deliverable 1: Observations and Proposal 📝"
 date: "2022-10-01T22:12:03.284Z"
 description: "Obersvations of users, Personas, Problems identified, Use Case Scenario, Finding related products, Comparing the Products, Designing at a High level, Justifying feasibility"
 ---
 # Table of Contents
-1. [Overview ✏️](#overview)
-2. [Observing Users 👥](#users)
-3. [The Problem 📛](#problem)
-4. [Personas 👱‍♂️](#personas)
+1. [Overview](#overview)
+2. [Observing Users](#users)
+3. [The Problem](#problem)
+4. [Personas](#personas)
 5. [Use Case Scenario](#usecase)
 6. [Related Products](#products)
 7. [Comparing The Products](#comparing)
@@ -28,7 +28,7 @@ For the initial stage we observed 3 users completing the same case study of the 
 ## Participants
 ### Beginner (Subject 1)
 - Is currently a STEM student and has used openLCA for some analysis group projects.
-- Is currently a STEM student and has used openLCA for some analysis group projects.
+- He has slight familiarlity with the common phases of generating an LCA Report
 
 
 ### Expert (Subject 2)
@@ -117,7 +117,7 @@ Joe then clicks ‘Create Product System’. He selects Process C as his referen
 Once finished, Joe clicks ‘Create Project’. He adds the newly created product system to this project, as well as 2 previously created product systems. Once done, Joe selects an LCIA method from a searchable dropdown, as well as the impact factors he wants to assess. He then clicks the ‘Generate Report’ button to create the LCA report.
 
 
-# Related Products <a name="products"></a>
+# Related Products 📱 <a name="products"></a>
 ### Complete Desktop Tools 
 | Paying | Tool | Software Type | Link |
 | -- | --------- | --------- | ------- |
@@ -160,7 +160,7 @@ This tool however seems to be much less versatile when it comes to database comp
   <figcaption>SimaPro Pricing Options</figcaption>
 </figure>
 
-# Comparing the  Products <a name="comparing"></a>
+# Comparing the  Products 📊 <a name="comparing"></a>
 ## Supported by openLCA
 The primary argument for the use of openLCA over other LCA is the combination of being open source and having a very complete toolkit. In the group of complete tools it is the only one to be free. As shown by the table above, only very light, web interface tools or specialized tools are free. We chose openLCA additionally for its very large user base, incentivized by its compatibility with many datasets. It is currently compatible with any Nexus databases: https://nexus.openlca.org/databases. The database defines the precision of the models and analysis, so it seemed fundamental to us to develop the most precise tool. The previous tools GaBi - Sphera and SimaPro - Pré are only compatible with their respective databases. Although GaBi does integrate Eco-invent (the most widely used government database), openLCA’s larger compatibility enables a larger flexibility for users. This large user base manifests itself through askOpenLCA.com, a platform for user/developer communication and support. This additionally showed us the developer’s willingness to support their tool and it’s accessibility, which we additionally witnessed in our exchanges with them since the start of the project.
 
@@ -172,7 +172,7 @@ Not only is openLCA an ideal support for LCA analysis but it is the foundation f
 
 **Additional Source:** [LCA Lecture](https://www.youtube.com/watch?v=uXj3M9Z4B4g&ab_channel=JeremyFaludi)
 
-# Designing at a High Level <a name="high"></a>
+# Designing at a High Level ✍️ <a name="high"></a>
 
 ### Design of current openLCA tech stack
 OpenLCA is a JAVA-based open-source application that is built on the Eclipse Rich Client Platform. The RCP platform provides the necessary tool kits and widgets for it to be a functional desktop-based application. The openLCA application consists of 4 key sub-projects.
@@ -201,7 +201,7 @@ Some of the core functionalities we will be focusing on are:
 
 ![alt text](./architecture.png)
 
-# Justifying Feasibility <a name="just"></a>
+# Justifying Feasibility 🧠 <a name="just"></a>
 
 The feasibility of our project will hinge upon our ability to achieve two main goals.
 
