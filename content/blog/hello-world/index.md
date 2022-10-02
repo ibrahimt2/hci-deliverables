@@ -89,3 +89,44 @@ Our proposed system will potentially create a new thin UI layer over the existin
 ![alt text](./new-design.png)
 
 # Justifying Feasibility
+
+The feasibility of our project will hinge upon our ability to achieve two main goals.
+
+**GOAL 1:** Build a functional front end interface, functional on Windows, Mac and Linux
+
+**GOAL 2:** Integrate this front end to the openLCA backend, process results and return useful results.
+
+Our team has ample expertise and time to achieve both of these objectives during the course of the semester. 
+
+
+The time required for these two goals will be roughly 55 hours for the front end and 35 hours for the integration. The integration is expected to take a lot of time due to the fact that it is with an unknown codebase. Most of this development time will be at the start of the semester. 
+
+Once done with integration, we expect our front end construction to be lightning fast due to our previous experience building front ends.
+
+### Justification for GOAL 1
+
+Writing 3 native applications for Windows, Mac and Linux separately would be impossible. Thus we are using Electron.js, which allows us to build cross-platform desktop applications using React.js, Javascript, HTML and CSS. 
+
+This will also allow us to leverage our past web development experience to build a desktop front end. All three team members have experience working in industry (Autodesk, Publicis Sapient, Citibank, Intact, Airliquide, Osmose) to deliver software using the above mentioned tools under strict deadlines and similar timeframes ( ~ 3 months). 
+
+Furthermore, since we are intentionally simplifying the openLCA UI and only programming a subset of important features, our front end work load will be cut down even further. 
+
+Put simply, we are confident we will be able to develop a functional front end because we have done it before many times.
+
+### Justification for GOAL 2 
+
+This is the harder goal, but we believe it is manageable. 
+
+The OpenLCA backend has a massive codebase, and understanding all of it over the semester is impossible. Which is why we will only restrict our attention to figuring out only how to insert our data and get our results using the pre existing functions. In order to use this, we will utilise three main resources
+
+1. **Example code:** Each folder in the codebase has a tests and examples folder which illustrate how to use the functions written in the codebase to do certain tasks (example). These illustrate in isolation how to use openLCA functions to import a database, create a flow etc.
+
+2. **How the code is used in the existing openLCA frontend:** The existing openLCA front already uses the openLCA backend module to implement the functionality we plan to implement. Thus, if we are ever confused about how to use a function, we can use this code to clarify users
+
+3. **Contact with openLCA developers:** We have contacted the lead developers who wrote the majority of the openLCA backend. They have agreed to answer any technical questions we might have. 
+
+
+Given these resources, as well as the team's previous experience with JAVA in both professional and academic contexts, we are confident we will be able to integrate our frontend into the openLCA backend.
+
+
+
